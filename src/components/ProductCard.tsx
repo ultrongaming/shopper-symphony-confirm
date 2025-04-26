@@ -33,11 +33,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <h3 className="text-lg font-medium text-gray-900 truncate">{product.name}</h3>
           <p className="mt-1 text-sm text-gray-500 line-clamp-2">{product.description}</p>
           <div className="mt-3 flex items-center justify-between">
-            <p className="text-lg font-semibold text-shop-purple">${product.price.toFixed(2)}</p>
+            <p className="text-lg font-semibold text-shop-green">${product.price.toFixed(2)}</p>
             <Button 
               onClick={handleAddToCart} 
               size="sm" 
-              className="bg-shop-purple hover:bg-shop-purple-dark"
+              className="bg-shop-green hover:bg-shop-green-dark text-white"
             >
               <ShoppingBag className="h-4 w-4 mr-2" />
               Add
