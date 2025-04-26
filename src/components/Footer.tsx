@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-shop-purple">ShopSymphony</h3>
+            <h3 className="text-lg font-semibold text-shop-purple">V kart</h3>
             <p className="text-sm text-gray-500">
               Your one-stop shop for quality products with fast delivery and excellent customer service.
             </p>
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
         
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-sm text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} ShopSymphony. All rights reserved.
+            &copy; {new Date().getFullYear()} V kart. All rights reserved.
           </p>
         </div>
       </div>
@@ -71,3 +71,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
+
