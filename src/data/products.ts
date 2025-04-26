@@ -14,7 +14,7 @@ export const products: Product[] = [
     id: 2,
     name: "Wireless Earbuds",
     price: 129.99,
-    image: "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    image: "https://images.unsplash.com/photo-1523275324684-608fbdbd4687", // Updated image URL
     description: "Premium wireless earbuds with active noise cancellation and 24-hour battery life.",
     category: "electronics"
   },
